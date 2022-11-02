@@ -1,0 +1,25 @@
+description: Gamma Naught RTC backscatter
+measurements:
+- dtype: float32
+  name: VH
+  nodata: 0.0
+  units: backscatter VH
+- dtype: float32
+  name: VV
+  nodata: 0.0
+  units: backscatter VV
+metadata:
+  format:
+    name: GTiff
+  instrument:
+    name: C-SAR
+  platform:
+    code: SENTINEL-1
+  product_type: gamma0
+metadata_type: eo
+name: S1_GRD
+storage:
+  crs: EPSG:4326
+  resolution:
+    latitude: 0.00008983
+    longitude: 0.00008983
